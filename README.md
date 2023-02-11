@@ -176,7 +176,7 @@ git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 
 move SKY130_PDK folder to the following location
 
-/Users/vanshikatanwar/ALIGN-public/pdks 
+/Users/balakrishna/ALIGN-public/pdks 
 
 
 ```
