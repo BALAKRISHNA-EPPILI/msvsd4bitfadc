@@ -247,7 +247,7 @@ $                    sudo make install
 ``` 
 
 After the open_pdks is installed , verifying this installation and to do interface this with sky130 just follow the given steps mentioned below:-
-    1) Create a folder with any name inside xschem . In my case , I have created a folder with the name xschem_simulations.
+    1) Create  folder with any name inside xschem . In my case , I have created a folder with the name xschem_simulations.
     
     2) Now, go to open_pdks/sky130/sky130A/libs.tech/xschem.
     
