@@ -95,27 +95,7 @@ $  sudo make install
 
 More information [http://repo.hu/projects/xschem/index.html](http://repo.hu/projects/xschem/index.html)
 
-### Ngspice
-ngspice is the open-source spice simulator for electric and electronic circuits.<br /><br />
-Install steps:<br />
 
-After downloading the tarball from [https://sourceforge.net/projects/ngspice/files/](https://sourceforge.net/projects/ngspice/files/) to a local directory, unpack it using:
-```
- $ tar -zxvf ngspice-37.tar.gz
- $ cd ngspice-37
- $ mkdir release
- $ cd release
- $ ../configure  --with-x --with-readline=yes --disable-debug
- $ make
- $ sudo make install
-```
-More information [https://ngspice.sourceforge.io/index.html](https://ngspice.sourceforge.io/index.html)
-
-Please note that to view the simulation graphs of ngspice, xterm is required and can be installed using.
-```
-$ sudo apt-get update
-$ sudo apt-get install xterm
-```
 
 ### open_pdk
 
@@ -139,6 +119,46 @@ $  sudo make install
 ![4](https://user-images.githubusercontent.com/88899069/218765480-92eaa937-2ed4-492b-ad5b-2c196ec167b0.png)
 
 ![5](https://user-images.githubusercontent.com/88899069/218765494-57bd04eb-c1a2-42e0-b0b4-c16ebca70044.png)
+
+
+
+
+
+After the open_pdks is installed , verifying this installation and to do interface this with sky130 just follow the given steps mentioned below:-
+    1) Create  folder with any name inside xschem . In my case , I have created a folder with the name xschem_simulations.
+    
+    2) Now, go to open_pdks/sky130/sky130A/libs.tech/xschem.
+    
+    3) Copy xschemrc file from this location 
+    
+    4) Go back to that folder which you have created in {step 1} and paste that xschemrc file inside the xschem_simulations .
+    
+    5) Now, open terminal in this xschem_simulations folder and type this command “xschem”
+    
+    6) You will notice that a display  has come in which xschem is now launched with all the sky130 processes , now you can proceed and start making your project.
+
+
+### Ngspice
+ngspice is the open-source spice simulator for electric and electronic circuits.<br /><br />
+Install steps:<br />
+
+After downloading the tarball from [https://sourceforge.net/projects/ngspice/files/](https://sourceforge.net/projects/ngspice/files/) to a local directory, unpack it using:
+```
+ $ tar -zxvf ngspice-37.tar.gz
+ $ cd ngspice-37
+ $ mkdir release
+ $ cd release
+ $ ../configure  --with-x --with-readline=yes --disable-debug
+ $ make
+ $ sudo make install
+```
+More information [https://ngspice.sourceforge.io/index.html](https://ngspice.sourceforge.io/index.html)
+
+Please note that to view the simulation graphs of ngspice, xterm is required and can be installed using.
+```
+$ sudo apt-get update
+$ sudo apt-get install xterm
+```
 
 
 Now that we have all the necessary tools installed let's understand the design flow!
@@ -339,76 +359,8 @@ move SKY130_PDK folder to the following location
 /Users/balakrishna/ALIGN-public/pdks 
 
 
-```
-$ Installing Xschem
-
-```
 
 
-Install xchem where you have installed all the tools 
-
-```
-$             git clone https://github.com/StefanSchippers/xschem.git xschem_git   
-$             cd xschem_git
-$              ./configure
-
-```
-
-
-(If the above configure command is giving error like xpm not found “Aborted (core dumped)  it means that this library is missing then run this command which is given below :-)
-
-
-```
-$              sudo apt install libxpm-dev 
-
-```  
-Now , run ./configure command 
-
-
-
-```
-$              make
-
-```                      
-
-{# if tgis is also giving some error then run this command instead of this make -j$(nproc) }
-
-
-```
-$              sudo make install
-
-```   
-
-```
-For opening or checking that xschem is installed or not , write this command under xschem_git directory
-
-$                    xschem
-
-This command opens up the xschem on your screen
-
-for closing it write this 
-
-exit
-
-``` 
-
-
-
-
-
-
-After the open_pdks is installed , verifying this installation and to do interface this with sky130 just follow the given steps mentioned below:-
-    1) Create  folder with any name inside xschem . In my case , I have created a folder with the name xschem_simulations.
-    
-    2) Now, go to open_pdks/sky130/sky130A/libs.tech/xschem.
-    
-    3) Copy xschemrc file from this location 
-    
-    4) Go back to that folder which you have created in {step 1} and paste that xschemrc file inside the xschem_simulations .
-    
-    5) Now, open terminal in this xschem_simulations folder and type this command “xschem”
-    
-    6) You will notice that a display  has come in which xschem is now launched with all the sky130 processes , now you can proceed and start making your project.
     
     ![24](https://user-images.githubusercontent.com/90523478/218184601-6e911eb9-121b-41f3-9bd1-bbecac2fbf34.png)
     
