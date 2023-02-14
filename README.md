@@ -225,14 +225,7 @@ $          pip install -v .
 ```
 ![12](https://user-images.githubusercontent.com/88899069/218771470-d973decd-1163-4d7e-a1a3-f7e91bd9a1ec.png)
 
-```
-$      git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
-```
 
-![7](https://user-images.githubusercontent.com/88899069/218771559-75fb9fd4-59ee-485e-9dbf-0326f063ff1d.png)
-
-
-After installing ALIGN-pdk-sky130 go to ALIGN-public folder and copy the SKY130_PDK folder and paste inside pdks folder in ALIGN-public folder.
 
 Note:- If after running this command it’s showing some error like gcc is not there or wheel not found 
 “Building wheel for align (pyproject.toml) did not run successfully”
@@ -268,7 +261,9 @@ if there are more than one gcc are there then run this command
 $             sudo rm /usr/bin/gcc
 ```
 
+![3](https://user-images.githubusercontent.com/88899069/218777046-8ba934af-27f2-4ce5-8cec-3e11ab37e641.png)
 
+![4](https://user-images.githubusercontent.com/88899069/218777072-044fe870-a31f-40ae-b38b-47fd42790eee.png)
 
 !
 Now again run this 
@@ -282,9 +277,23 @@ $             gcc –version
 It will show now the version of gcc like this as shown below:-
 
 
+![7 1](https://user-images.githubusercontent.com/88899069/218777537-4300a9ab-ee7c-4b96-8053-0ce7dd7b8fe0.png)
+
 
 Now, run that command of installing ALIGN as a user .
 it will successfully run now .
+
+```
+$      git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
+```
+
+![7](https://user-images.githubusercontent.com/88899069/218771559-75fb9fd4-59ee-485e-9dbf-0326f063ff1d.png)
+
+
+After installing ALIGN-pdk-sky130 go to ALIGN-public folder and copy the SKY130_PDK folder and paste inside pdks folder in ALIGN-public folder.
+
+
+
 
 ### If you are installing ALIGN as a DEVELOPER:-
 
