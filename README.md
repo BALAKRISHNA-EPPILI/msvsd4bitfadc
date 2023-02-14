@@ -395,16 +395,7 @@ exit
 
 
 
-#Now install the Open_PDKS 
 
-```
-$                    git clone git://opencircuitdesign.com/open_pdks
-$                    open_pdks
-$                    ./configure --enable-sky130-pdk
-$                    make
-$                    sudo make install
-
-``` 
 
 After the open_pdks is installed , verifying this installation and to do interface this with sky130 just follow the given steps mentioned below:-
     1) Create  folder with any name inside xschem . In my case , I have created a folder with the name xschem_simulations.
