@@ -25,7 +25,7 @@ These tools are listed below-
 
 --> Align tool
 
-## magic TOOL Installation
+### magic TOOL Installation
 
 It is an open-source VLSI layout tool.<br /><br />
 Install steps:
@@ -39,7 +39,7 @@ $  sudo make install
 More information [http://opencircuitdesign.com/magic/index.html](http://opencircuitdesign.com/magic/index.html)
 
 
-## Netgen
+### Netgen
 It is a tool for comparing netlists, a process known as LVS, which stands for "Layout vs. Schematic" <br /><br />
 Install steps:
 ```
@@ -145,7 +145,7 @@ Now that we have all the necessary tools installed let's understand the design f
 
 
 
-## ALIGN TOOL Installation 
+### ALIGN TOOL Installation 
 
 There are some prerequisites needed before installing the ALIGN Tool 
 
@@ -194,6 +194,9 @@ $            git clone https://github.com/ALIGN-analoglayout/ALIGN-public
 
 $           cd ALIGN-public
 ```
+![1](https://user-images.githubusercontent.com/88899069/218770277-88b5c184-a8fa-4835-b833-cf92ee021196.png)
+
+
 
 
 #### Now we need to create a Python virtual environment
@@ -219,6 +222,12 @@ Now, there are 2 process that one can install ALIGN as a USER or as a DEVELOPER
 
 ```
 $          pip install -v .
+```
+![12](https://user-images.githubusercontent.com/88899069/218771470-d973decd-1163-4d7e-a1a3-f7e91bd9a1ec.png)
+
+![7](https://user-images.githubusercontent.com/88899069/218771559-75fb9fd4-59ee-485e-9dbf-0326f063ff1d.png)
+```
+$      git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 ```
 
 Note:- If after running this command it’s showing some error like gcc is not there or wheel not found 
