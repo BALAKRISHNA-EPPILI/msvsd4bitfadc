@@ -281,7 +281,7 @@ If you are again installing ALIGN as USER:-
 ```
 $             pip install -v .
 ```
-pip install -v .
+
 
 ![7 1](https://user-images.githubusercontent.com/88899069/218777537-4300a9ab-ee7c-4b96-8053-0ce7dd7b8fe0.png)
 
