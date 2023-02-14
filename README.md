@@ -8,7 +8,7 @@ Install Oracle virtual box (Version 6.0.10 platform) with Ubuntu 20.04 - RAM at 
 
  ## Day 2
 
-As, of now for starting this worskhop we need some tools which one can say the prerequisites needed for this workshop .
+As, of now for starting this workshop we need some tools which one can say the prerequisites needed for this workshop .
 So, for that we need to install some tools.
 
 These tools are listed below-
@@ -24,6 +24,93 @@ These tools are listed below-
 --> open_pdks(sky130)
 
 --> Align tool
+
+## magic TOOL Installation
+
+It is an open-source VLSI layout tool.<br /><br />
+Install steps:
+```
+$  git clone git://opencircuitdesign.com/magic
+$  cd magic
+$	 ./configure
+$  make
+$  sudo make install
+```
+More information [http://opencircuitdesign.com/magic/index.html](http://opencircuitdesign.com/magic/index.html)
+
+
+## Netgen
+It is a tool for comparing netlists, a process known as LVS, which stands for "Layout vs. Schematic" <br /><br />
+Install steps:
+```
+$  git clone git://opencircuitdesign.com/netgen
+$  cd netgen
+$	./configure
+$  make
+$  sudo make install
+```
+More information [http://opencircuitdesign.com/netgen/index.html](http://opencircuitdesign.com/netgen/index.html)
+
+### Xschem
+Xschem is a schematic capture program <br /><br />
+Install steps:
+```
+$  git clone https://github.com/StefanSchippers/xschem.git xschem_git
+$	./configure
+$  make
+$  sudo make install
+```
+More information [http://repo.hu/projects/xschem/index.html](http://repo.hu/projects/xschem/index.html)
+
+### Ngspice
+ngspice is the open-source spice simulator for electric and electronic circuits.<br /><br />
+Install steps:<br />
+
+After downloading the tarball from [https://sourceforge.net/projects/ngspice/files/](https://sourceforge.net/projects/ngspice/files/) to a local directory, unpack it using:
+```
+ $ tar -zxvf ngspice-37.tar.gz
+ $ cd ngspice-37
+ $ mkdir release
+ $ cd release
+ $ ../configure  --with-x --with-readline=yes --disable-debug
+ $ make
+ $ sudo make install
+```
+More information [https://ngspice.sourceforge.io/index.html](https://ngspice.sourceforge.io/index.html)
+
+Please note that to view the simulation graphs of ngspice, xterm is required and can be installed using.
+```
+$ sudo apt-get update
+$ sudo apt-get install xterm
+```
+
+### open_pdk
+
+Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description [https://github.com/google/skywater-pdk](https://github.com/google/skywater-pdk). Open_PDKs will set up an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such as magic, qflow, openlane, netgen, klayout, etc.<br /><br />
+Install steps:
+```
+$  git clone git://opencircuitdesign.com/open_pdks
+$  open_pdks
+$	./configure --enable-sky130-pdk
+$  make
+$  sudo make install
+```
+
+
+![1 1](https://user-images.githubusercontent.com/88899069/218765374-34f77769-6c97-4bf0-aee4-7b2e59444931.png)
+
+![2](https://user-images.githubusercontent.com/88899069/218765439-510c504e-272f-41e6-aa43-05533be6dc3f.png)
+
+![3](https://user-images.githubusercontent.com/88899069/218765460-ba93bf45-09b0-4c5b-a342-cefae7746734.png)
+
+![4](https://user-images.githubusercontent.com/88899069/218765480-92eaa937-2ed4-492b-ad5b-2c196ec167b0.png)
+
+![5](https://user-images.githubusercontent.com/88899069/218765494-57bd04eb-c1a2-42e0-b0b4-c16ebca70044.png)
+
+
+Now that we have all the necessary tools installed let's understand the design flow!
+
+
 
 ## ALIGN TOOL Installation 
 
