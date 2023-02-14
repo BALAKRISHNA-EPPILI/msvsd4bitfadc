@@ -2,6 +2,11 @@
 
 # Week 0 AIs
 
+## Day 1
+
+Install Oracle virtual box (Version 6.0.10 platform) with Ubuntu 20.04 - RAM at least 4GB, hard-disk atleast 50GB
+
+ ## Day 2
 
 As, of now for starting this worskhop we need some tools which one can say the prerequisites needed for this workshop .
 So, for that we need to install some tools.
@@ -9,11 +14,16 @@ So, for that we need to install some tools.
 These tools are listed below-
 
 --> magic
-netgen
-ngspice
-xschem
-open_pdks(sky130)
-Align tool
+
+--> netgen
+
+--> ngspice
+
+--> xschem
+
+--> open_pdks(sky130)
+
+--> Align tool
 
 ## ALIGN TOOL Installation 
 
