@@ -218,7 +218,7 @@ Note :- If you have only python version then , write python command instead of p
 
 Now, there are 2 process that one can install ALIGN as a USER or as a DEVELOPER
 
-** For installing ALIGN as a USER 
+#### For installing ALIGN as a USER 
 
 ```
 $          pip install -v .
@@ -274,8 +274,14 @@ $             sudo ln -s /usr/bin/gcc-9 /usr/bin/gcc
 $             gcc –version
 ```
 
-It will show now the version of gcc like this as shown below:-
+It will show now the version of gcc 
 
+If you are again installing ALIGN as USER:-
+
+```
+$             pip install -v .
+```
+pip install -v .
 
 ![7 1](https://user-images.githubusercontent.com/88899069/218777537-4300a9ab-ee7c-4b96-8053-0ce7dd7b8fe0.png)
 
@@ -295,7 +301,7 @@ After installing ALIGN-pdk-sky130 go to ALIGN-public folder and copy the SKY130_
 
 
 
-### If you are installing ALIGN as a DEVELOPER:-
+#### If you are installing ALIGN as a DEVELOPER:-
 
 
 ```
