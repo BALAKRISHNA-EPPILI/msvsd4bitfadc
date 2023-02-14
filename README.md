@@ -57,9 +57,42 @@ Install steps:
 ```
 $  git clone https://github.com/StefanSchippers/xschem.git xschem_git
 $	./configure
+```
+
+![1](https://user-images.githubusercontent.com/88899069/218766060-0320b1a5-663f-4dc3-86de-4a5656cc478f.png)
+
+![2](https://user-images.githubusercontent.com/88899069/218766097-5f4626bd-da6a-4e4a-9e76-dd0284c5b4fc.png)
+
+(If the above configuration command fails with an error such as "xpm not found" or "Aborted (core dumped)", this indicates that the library is missing. If so, perform the command below:-
+
+```
+$	sudo apt install libxpm-dev
+```
+
+![3](https://user-images.githubusercontent.com/88899069/218766110-f17de430-7fdf-4ec8-a442-2a87469aca1b.png)
+
+Now again run command
+
+```
+$	./configure
 $  make
 $  sudo make install
 ```
+
+
+![4](https://user-images.githubusercontent.com/88899069/218766134-16ac9061-a584-4687-a495-42edec5c941f.png)
+
+![5](https://user-images.githubusercontent.com/88899069/218766147-08dbc77f-41c4-4561-8dd9-21572cda57b4.png)
+
+![6](https://user-images.githubusercontent.com/88899069/218766176-c5d7eaee-cc4b-4b5f-8ea9-d5288250bb65.png)
+
+![7](https://user-images.githubusercontent.com/88899069/218766184-d35be9b3-ea00-49b2-b87a-159d6a281b2e.png)
+
+![8](https://user-images.githubusercontent.com/88899069/218766195-05bdec4e-b3e0-4fd9-b504-06308a7d7395.png)
+
+![9](https://user-images.githubusercontent.com/88899069/218766214-ca02cb60-8e85-4e3c-abd5-658127675aed.png)
+
+
 More information [http://repo.hu/projects/xschem/index.html](http://repo.hu/projects/xschem/index.html)
 
 ### Ngspice
