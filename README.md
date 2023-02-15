@@ -149,6 +149,18 @@ After downloading the tarball from [https://sourceforge.net/projects/ngspice/fil
  $ mkdir release
  $ cd release
  $ ../configure  --with-x --with-readline=yes --disable-debug
+ ```
+
+(If the above configuration command fails with an error such as "xpm not found" or "Aborted (core dumped)", this indicates that the library is missing. If so, perform the command below:-
+
+```
+$	sudo apt-get install libxaw7-dev
+```
+ 
+ Now again run command configure
+ 
+ ```
+ $ ../configure  --with-x --with-readline=yes --disable-debug
  $ make
  $ sudo make install
 ```
