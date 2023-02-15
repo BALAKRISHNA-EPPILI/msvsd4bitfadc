@@ -1,12 +1,11 @@
 # msvsd4bitfadc
 
-# Week 0 AIs
+# Week 1 AIs
 
-## Day 1
 
 Install Oracle virtual box (Version 6.0.10 platform) with Ubuntu 20.04 - RAM at least 4GB, hard-disk atleast 50GB
 
- ## Day 2
+ 
 
 As, of now for starting this workshop we need some tools which one can say the prerequisites needed for this workshop .
 So, for that we need to install some tools.
@@ -25,7 +24,7 @@ These tools are listed below-
 
 --> Align tool
 
-### magic TOOL Installation
+## magic TOOL Installation
 
 It is an open-source VLSI layout tool.<br /><br />
 Install steps:
@@ -39,7 +38,7 @@ $  sudo make install
 More information [http://opencircuitdesign.com/magic/index.html](http://opencircuitdesign.com/magic/index.html)
 
 
-### Netgen
+## Netgen
 It is a tool for comparing netlists, a process known as LVS, which stands for "Layout vs. Schematic" <br /><br />
 Install steps:
 ```
@@ -51,7 +50,7 @@ $  sudo make install
 ```
 More information [http://opencircuitdesign.com/netgen/index.html](http://opencircuitdesign.com/netgen/index.html)
 
-### Xschem
+## Xschem
 Xschem is a schematic capture program <br /><br />
 Install steps:
 ```
@@ -97,7 +96,7 @@ More information [http://repo.hu/projects/xschem/index.html](http://repo.hu/proj
 
 
 
-### open_pdk
+## open_pdk
 
 Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description [https://github.com/google/skywater-pdk](https://github.com/google/skywater-pdk). Open_PDKs will set up an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such as magic, qflow, openlane, netgen, klayout, etc.<br /><br />
 Install steps:
@@ -138,7 +137,7 @@ After the open_pdks is installed , verifying this installation and to do interfa
     6) You will notice that a display  has come in which xschem is now launched with all the sky130 processes , now you can proceed and start making your project.
 
 
-### Ngspice
+## Ngspice
 ngspice is the open-source spice simulator for electric and electronic circuits.<br /><br />
 Install steps:<br />
 
@@ -175,9 +174,33 @@ $ sudo apt-get install xterm
 
 Now that we have all the necessary tools installed let's understand the design flow!
 
+### Xschem simulation
+
+#### DC analysis
 
 
-### ALIGN TOOL Installation 
+![13](https://user-images.githubusercontent.com/88899069/219113251-5cfb00cb-52ef-480c-a1ef-0dc5d5affeb5.png)
+
+![14](https://user-images.githubusercontent.com/88899069/219113330-4b140572-c741-418a-9f0f-0a8895fd0bc5.png)
+
+![16](https://user-images.githubusercontent.com/88899069/219113395-22c8ed12-89a2-4634-8576-50804e9a1eb1.png)
+
+![17](https://user-images.githubusercontent.com/88899069/219113477-beeaaa33-d0fb-4d34-b784-3c70440495f5.png)
+
+![19](https://user-images.githubusercontent.com/88899069/219113548-f62b25c5-0948-4313-b75e-9460d926b2e5.png)
+
+#### Trans analysis
+
+![22](https://user-images.githubusercontent.com/88899069/219113772-1f40f5f1-1bb5-44ef-9c66-9696b7aa861a.png)
+
+
+![21](https://user-images.githubusercontent.com/88899069/219113592-78bae3e2-34bd-49bd-96e5-6f00e440e6c2.png)
+
+![20](https://user-images.githubusercontent.com/88899069/219113823-1652c880-8939-4728-b2fc-d7e0c486e318.png)
+
+
+
+## ALIGN TOOL Installation 
 
 There are some prerequisites needed before installing the ALIGN Tool 
 
@@ -231,7 +254,7 @@ $           cd ALIGN-public
 
 
 
-#### Now we need to create a Python virtual environment
+### Now we need to create a Python virtual environment
 
 As , we have installed the Python 3 so, follow these commands which are given below inside the ALIGN-public directory:
 
@@ -250,7 +273,7 @@ Note :- If you have only python version then , write python command instead of p
 
 Now, there are 2 process that one can install ALIGN as a USER or as a DEVELOPER
 
-#### For installing ALIGN as a USER 
+### For installing ALIGN as a USER 
 
 ```
 $          pip install -v .
