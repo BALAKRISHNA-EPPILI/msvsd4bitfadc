@@ -200,6 +200,7 @@ Now that we have all the necessary tools installed let's understand the design f
 
 
 
+
 ## ALIGN TOOL Installation 
 
 There are some prerequisites needed before installing the ALIGN Tool 
