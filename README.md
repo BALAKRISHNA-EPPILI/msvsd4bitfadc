@@ -2,8 +2,28 @@
 
 # Week 1 AIs
 
+With a windows machine, Oracle virtual box (Version 6.0.10 platform) is installed with version of Ubuntu 20.04.1 LTS, 64 bit OS with 4 GB RAM, and 1.05 TB of hard-disk space.  
 
-Install Oracle virtual box (Version 6.0.10 platform) with Ubuntu 20.04 - RAM at least 4GB, hard-disk atleast 50GB
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88899069/219711328-47700953-b240-416a-9563-d565218a4428.png">
+</p> 
+<p align="center">
+Fig  Oracle VM Virtual Box (Version 6.0.10 platform)
+</p>
+
+1. Latest version of Virtual Box can be installed from: https://www.virtualbox.org/wiki/Download_Old_Builds_6_0
+2. Note: Click on Windows hosts for Windows machine. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88899069/219712230-fba95d46-5cce-446b-bb14-ffa98c8a87a1.png">
+</p> 
+<p align="center">
+Fig  Ubuntu 20.04.1 LTS window running using Oracle VM VirtualBox
+</p>
+
+
+1. Latest version of Ubuntu can be installed from: https://releases.ubuntu.com/focal/
+2. Download the LTS version of Ubuntu
 
  
 
