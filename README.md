@@ -196,7 +196,7 @@ Now that we have all the necessary tools installed let's understand the design f
 
 
 
-# AI 4 Pre-layout simulation of CMOS inverter using xschem and ngspice
+#  Pre-layout simulation of CMOS inverter using xschem and ngspice
 
 
 ![23](https://user-images.githubusercontent.com/88899069/219715663-5ec8ff8b-b5b0-477d-b0c0-3afa5f9e65f7.png)
