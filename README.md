@@ -194,9 +194,11 @@ $ sudo apt-get install xterm
 
 Now that we have all the necessary tools installed let's understand the design flow!
 
-### Xschem simulation
 
-#### DC analysis
+
+# AI 4 Pre-layout simulation of CMOS inverter using xschem and ngspice
+
+## DC Analysis of CMOS Inverter using xschem and ngspice
 
 
 ![13](https://user-images.githubusercontent.com/88899069/219113251-5cfb00cb-52ef-480c-a1ef-0dc5d5affeb5.png)
@@ -209,7 +211,7 @@ Now that we have all the necessary tools installed let's understand the design f
 
 ![19](https://user-images.githubusercontent.com/88899069/219113548-f62b25c5-0948-4313-b75e-9460d926b2e5.png)
 
-#### Trans analysis
+## Trans analysis of CMOS Inverter using xschem and ngspice
 
 ![22](https://user-images.githubusercontent.com/88899069/219113772-1f40f5f1-1bb5-44ef-9c66-9696b7aa861a.png)
 
