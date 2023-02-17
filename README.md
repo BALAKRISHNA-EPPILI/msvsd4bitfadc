@@ -217,6 +217,8 @@ Now that we have all the necessary tools installed let's understand the design f
 
 ## Trans analysis of CMOS Inverter using xschem and ngspice
 
+![trans](https://user-images.githubusercontent.com/88899069/219717788-415ba546-7d03-4917-9f2a-14bed2c6bdf1.png)
+
 ![22](https://user-images.githubusercontent.com/88899069/219113772-1f40f5f1-1bb5-44ef-9c66-9696b7aa861a.png)
 
 
