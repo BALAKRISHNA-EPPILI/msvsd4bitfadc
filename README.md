@@ -226,6 +226,7 @@ Now that we have all the necessary tools installed let's understand the design f
 ![20](https://user-images.githubusercontent.com/88899069/219113823-1652c880-8939-4728-b2fc-d7e0c486e318.png)
 
 
+# Week 2 AIs
 
 
 ## ALIGN TOOL Installation 
