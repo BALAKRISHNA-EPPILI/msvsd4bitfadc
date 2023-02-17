@@ -25,7 +25,7 @@ Fig  Ubuntu 20.04.1 LTS window running using Oracle VM VirtualBox
 1. Latest version of Ubuntu can be installed from: https://releases.ubuntu.com/focal/
 2. Download the LTS version of Ubuntu
 
- 
+# Tools Installation  
 
 As, of now for starting this workshop we need some tools which one can say the prerequisites needed for this workshop .
 So, for that we need to install some tools.
