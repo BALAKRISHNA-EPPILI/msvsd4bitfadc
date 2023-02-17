@@ -204,11 +204,10 @@ Now that we have all the necessary tools installed let's understand the design f
 
 ![13](https://user-images.githubusercontent.com/88899069/219113251-5cfb00cb-52ef-480c-a1ef-0dc5d5affeb5.png)
 
+![14](https://user-images.githubusercontent.com/88899069/219113330-4b140572-c741-418a-9f0f-0a8895fd0bc5.png)
 
 ## DC Analysis of CMOS Inverter using xschem and ngspice
 
-
-![14](https://user-images.githubusercontent.com/88899069/219113330-4b140572-c741-418a-9f0f-0a8895fd0bc5.png)
 
 ![16](https://user-images.githubusercontent.com/88899069/219113395-22c8ed12-89a2-4634-8576-50804e9a1eb1.png)
 
