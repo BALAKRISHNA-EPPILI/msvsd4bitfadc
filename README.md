@@ -2,7 +2,7 @@
 
 # Week 1 AIs
 
-With a windows, Oracle virtual box (Version 6.0.10 platform) is installed with version of Ubuntu 20.04.1 LTS, 64 bit OS with 4 GB RAM, and 1.05 TB of hard-disk space.  
+With a windows, Oracle virtual box (Version 6.0.10 platform) is installed with version of Ubuntu 20.04.1 LTS, 64 bit OS with 5 GB RAM, and 1.05 TB of hard-disk space.  
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/88899069/219711328-47700953-b240-416a-9563-d565218a4428.png">
